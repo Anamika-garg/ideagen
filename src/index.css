@@ -69,4 +69,7 @@ body{
         padding: 0;
         width: 100%;
     }
+    .button-div{
+        flex-direction: column;
+    }
 }
