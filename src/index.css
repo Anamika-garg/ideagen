@@ -68,6 +68,7 @@ body{
         height: 100%;
         padding: 0;
         width: 100%;
+        box-shadow: none;
     }
     .button-div{
         flex-direction: column;
