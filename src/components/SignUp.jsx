@@ -5,7 +5,7 @@ import element from '/element.png';
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineMail } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -45,7 +45,7 @@ const SignUp = () => {
                             <label htmlFor="password" className='relative bottom-[40px] right-[-34%]'> <RiLockPasswordLine className='h-[24px] w-[24px]'/> </label>
 
                             <button className='btn-hover w-[80%] h-[60px] rounded-md relative] text-white font-bold text-xl bg-[var(--primary-color)]'>Create Account</button>
-                            <small className='ml-[3px] w-[80%] mb-[8px] mb-[7px'>Already Have an Account? <a href="" className='text-[var(--primary-color)] text-left hover:underline'>Login</a></small>
+                            <small className='ml-[3px] w-[80%] mb-[8px] mt-[7px]'>Already Have an Account? <Link to={'/login'} className='text-[var(--primary-color)] text-left hover:underline font-bold'>Login</Link></small>
                         </form>
                     </div>
                 </div>

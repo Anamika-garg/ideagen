@@ -6,6 +6,8 @@ import { CgProfile } from "react-icons/cg";
 import { MdOutlineMail } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";
 
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -46,7 +48,7 @@ const Login = () => {
                             <div className="continue-div flex-wrap w-[80%] flex justify-end gap-[10px]">
                                 <div className="text-con text-right">
                                     <small className='text-[14px]'>Don't Have an Account?</small>
-                                    <p className='text-[20px] text-right'>Back to <a href="/Signup" className='text-[var(--primary-color)] font-bold'>Signup</a> </p>
+                                    <p className='text-[20px] text-right'>Back to <Link to="/Signup" className='text-[var(--primary-color)] font-bold'>Signup</Link> </p>
                                 </div>
                                 <button className='btn-hover w-[140px] h-[60px] rounded-md relative] text-white font-bold text-xl bg-[var(--primary-color)]'>Continue</button>
                             </div>
