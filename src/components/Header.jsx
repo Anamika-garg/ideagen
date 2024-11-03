@@ -9,7 +9,7 @@ const Header = () => {
         className="w-1/2 p-2 border rounded"
       />
       <a href="/login">
-      <button className="bg-green-600 text-white py-2 px-4 rounded">Login</button>
+      <button className="bg-[var(--primary-color)] text-white py-2 px-4 rounded">Login</button>
       </a>
     </header>
   );
