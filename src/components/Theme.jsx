@@ -1,10 +1,10 @@
 import React from 'react';
 
 const themes = [
-  { id: 1, name: 'Dawn', author: 'by Shopify', imgSrc: 'https://via.placeholder.com/300x200' },
-  { id: 2, name: 'Spotlight', author: 'by Shopify', imgSrc: 'https://via.placeholder.com/300x200' },
-  { id: 3, name: 'Refresh', author: 'by Shopify', imgSrc: 'https://via.placeholder.com/300x200' },
-  { id: 4, name: 'Sense', author: 'by Shopify', imgSrc: 'https://via.placeholder.com/300x200' },
+  { id: 1, name: 'Dawn', author: 'by BizBoost', imgSrc: 'https://via.placeholder.com/300x200' },
+  { id: 2, name: 'Spotlight', author: 'by BizBoost', imgSrc: 'https://via.placeholder.com/300x200' },
+  { id: 3, name: 'Refresh', author: 'by BizBoost', imgSrc: 'https://via.placeholder.com/300x200' },
+  { id: 4, name: 'Sense', author: 'by BizBoost', imgSrc: 'https://via.placeholder.com/300x200' },
 ];
 
 const Theme = () => {

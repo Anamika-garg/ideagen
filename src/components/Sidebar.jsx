@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="bg-white w-64 p-4 space-y-6">
-      <h2 className="text-2xl font-bold">Logo</h2>
+      <h2 className="text-2xl font-bold">Biz Boost</h2>
       <nav className="space-y-4">
         <Link to={"/"} className="flex p-2 items-center space-x-2 text-gray-700 sideBar-hover">
           <HomeIcon className="h-5 w-5" />
