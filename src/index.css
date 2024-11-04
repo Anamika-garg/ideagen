@@ -38,6 +38,17 @@ body{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.sideBar-hover:hover{
+    background: #f9fafb;
+    color: black;
+    transform: translateX(2px);
+    transition: all .1s;
+    border: none;
+}
+.hover-box-shadow:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.02), 0 6px 6px rgba(0,0,0,0.13);    
+}
+
 @media screen and (max-width:900px) {
     .signup-container , .Login-container{
         padding: 0px;

@@ -11,7 +11,6 @@ function Layout() {
       <div className="flex flex-col w-full">
         <Header />
         <main className="p-4">
-          {/* Outlet will render the nested route component */}
           <Outlet />
         </main>
       </div>
